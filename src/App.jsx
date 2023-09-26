@@ -1,9 +1,12 @@
-import { MuiTypography } from "./components/MuiTypography";
+import "./App.css"
+import { MuiButton } from "./components/MuiButton";
+// import { MuiTypography } from "./components/MuiTypography";
 
 export default function App() {
   return (
     <>
-      <MuiTypography />
+      {/* <MuiTypography /> */}
+      <MuiButton />
     </>
   );
 }
