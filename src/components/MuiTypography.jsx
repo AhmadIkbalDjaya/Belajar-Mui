@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 
 export const MuiTypography = () => {
   return (
-    <div>
+    <>
       <Typography variant="h1">h1 Heading</Typography>
       <Typography variant="h2">h2 Heading</Typography>
       <Typography variant="h3">h3 Heading</Typography>
@@ -25,9 +25,12 @@ export const MuiTypography = () => {
         minima itaque consequatur veritatis fugiat porro ratione modi vel ipsa,
         repudiandae voluptatibus.
       </Typography>
-      <Typography variant="h4" component="h1" gutterBottom>
-        h4 Heading
+      <Typography variant="h4" component="h1">
+        H4 Heading with h1 tag
       </Typography>
-    </div>
+      <Typography variant="h4" component="h1" gutterBottom>
+        H4 Heading with h1 tag with margin bottom
+      </Typography>
+    </>
   );
 };
