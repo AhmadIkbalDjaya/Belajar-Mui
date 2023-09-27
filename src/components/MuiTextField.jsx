@@ -1,8 +1,11 @@
 import { Stack, TextField, InputAdornment } from "@mui/material";
 import { useState } from "react";
+import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 export const MuiTextField = () => {
   const [value, setValue] = useState("");
+  const [showPass, setShowPass] = useState(false);
   return (
     <Stack spacing={4}>
       <Stack direction={"row"} spacing={2}>
@@ -26,9 +29,21 @@ export const MuiTextField = () => {
         />
         <TextField
           label="Password"
-          type="password"
+          type={showPass ? "text" : "password"}
           helperText="Do not share your password"
-          disabled
+          // disabled
+          InputProps={{
+            endAdornment: (
+              <InputAdornment
+                position="end"
+                onClick={() => {
+                  setShowPass(!showPass);
+                }}
+              >
+                {showPass ? <VisibilityIcon /> : <VisibilityOffIcon />}
+              </InputAdornment>
+            ),
+          }}
         />
         <TextField label="Read Only" InputProps={{ readOnly: true }} />
       </Stack>
