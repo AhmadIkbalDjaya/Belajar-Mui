@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiAutocomplete } from "./components/MuiAutoComplete";
+import { MuiLayout } from "./components/MuiLayout";
+// import { MuiAutocomplete } from "./components/MuiAutoComplete";
 // import { MuiRating } from "./components/MuiRating";
 // import { MuiSwitch } from "./components/MuiSwitch";
 // import { MuiCheckbox } from "./components/MuiCheckBox";
@@ -20,7 +21,8 @@ export default function App() {
       {/* <MuiCheckbox /> */}
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
-      <MuiAutocomplete />
+      {/* <MuiAutocomplete /> */}
+      <MuiLayout />
     </>
   );
 }
