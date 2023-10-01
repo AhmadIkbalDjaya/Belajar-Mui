@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiRating } from "./components/MuiRating";
+import { MuiAutocomplete } from "./components/MuiAutoComplete";
+// import { MuiRating } from "./components/MuiRating";
 // import { MuiSwitch } from "./components/MuiSwitch";
 // import { MuiCheckbox } from "./components/MuiCheckBox";
 // import { MuiRadioButton } from "./components/MuiRadioButton";
@@ -18,7 +19,8 @@ export default function App() {
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
       {/* <MuiSwitch /> */}
-      <MuiRating />
+      {/* <MuiRating /> */}
+      <MuiAutocomplete />
     </>
   );
 }
