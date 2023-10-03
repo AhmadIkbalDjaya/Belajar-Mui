@@ -1,6 +1,7 @@
 import "./App.css";
-import { MuiLink } from "./components/MuiLink";
-import { MuiNavbar } from "./components/MuiNavbar";
+import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
+// import { MuiLink } from "./components/MuiLink";
+// import { MuiNavbar } from "./components/MuiNavbar";
 // import { MuiImagelist } from "./components/MuiImagelist";
 // import { MuiAccordion } from "./components/MuiAccordion";
 // import { MuiCard } from "./components/MuiCard";
@@ -31,8 +32,9 @@ export default function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImagelist /> */}
-      <MuiNavbar />
-      <MuiLink />
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </>
   );
 }
