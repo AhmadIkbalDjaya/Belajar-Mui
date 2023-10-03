@@ -1,4 +1,5 @@
 import "./App.css";
+import { MuiBottonNavigation } from "./components/MuiBottonNavigation";
 import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
 import { MuiDrawer } from "./components/MuiDrawer";
 import { MuiSpeedDial } from "./components/MuiSpeedDial";
@@ -36,9 +37,10 @@ export default function App() {
       {/* <MuiImagelist /> */}
       {/* <MuiNavbar /> */}
       {/* <MuiLink /> */}
-      <MuiBreadcrumbs />
-      <MuiDrawer />
-      <MuiSpeedDial />
+      {/* <MuiBreadcrumbs /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      <MuiBottonNavigation />
     </>
   );
 }
